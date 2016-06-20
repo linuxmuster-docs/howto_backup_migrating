@@ -33,7 +33,7 @@ Haben Sie mit den Migrationstools bereits ein Backup auf das Ziel ``/srv/backup/
 Ziel des Migrationsbackups: ``/srv/backup/server``
 Versionen dieser Backups (Pseudo-Vollbackups): ``/srv/backup/rsnapshot``
 
-Um hierfür eine Versionierung einzurichten find folgende Einträge in ``/etc/rsnapshot.conf``vorzunehmen:
+Um hierfür eine Versionierung einzurichten find folgende Einträge in ``/etc/rsnapshot.conf`` vorzunehmen:
 
 .. code:: bash
 
