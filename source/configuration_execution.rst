@@ -3,9 +3,7 @@ Konfiguration und Anwendung
 
 Da die Skripte der Migration eines Systems zur Anwendung kommen, ist die Konfiguration und Anwendung identisch mit einer Migration. Ausnahme ist, dass im Falle einer Wiederherstellung üblicherweise derselbe Rechner mit derselben linuxmuster.net Version das Migrationsziel darstellt. 
 
-Zur Umsetzung der Backuplösung folgen Sie bitte dem Howto_Migration_ Schritt für Schritt
-
-__ Howto_Migration: 
+Zur Umsetzung der Backuplösung folgen Sie bitte dem `Howto_Migration` Schritt für Schritt
 
 Automatisierung
 ---------------
@@ -53,7 +51,7 @@ Ebenso müssen alle Verzeichnisse mit einem / enden. Der Eiontrag `retain daily 
 
 Wann diese Backups erfolgen, ist selbst festzulegen, indem rsnapshot von cron aus mit dem richtigen Argument gestartet wird.
 
-Eine beispielhafte Konfiguration für cron in ``/etc/cron.d/backupservice`` wäre_
+Eine beispielhafte Konfiguration für cron in ``/etc/cron.d/backupservice`` wäre:
 
 .. code:: bash
 
