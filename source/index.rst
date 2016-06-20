@@ -1,33 +1,15 @@
-.. Installationsleitfaden documentation master file, created by
-   sphinx-quickstart on Sat Nov  7 15:29:20 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Backup der linuxmuster.net
 ==========================
 
-Das ist die Hauptdatei aus dem meta_example-Paket, die enthält zunächst nur das Inhaltsverzeichnis. 
-Jedes Kapitel der Dokumentation kommt in eine eigene Datei, die hier 
-eingebunden wird.
+linuxmuster.net bietet ab der Version 6.1 sog. Migrationsskripte mit denen ein regelmäßiges Backup und ggf. ein Restore des Servers sowie der Firewall möglich und für automatisierte Backups einzusetzen sind.
 
 Inhalt:
 
 .. toctree::
    :maxdepth: 2
 
-   ueberschriften
-   links
-   listen 
-   blockquote
-   bilder
-   quelltext
-   tabellen
-
-
-
-Index 
------
-
-* :ref:`genindex`
-* :ref:`search`
+   features
+   configuration_execution
+   restore
+   disaster_recovery
 
